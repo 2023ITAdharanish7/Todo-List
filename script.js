@@ -30,10 +30,12 @@ console.log(para)
 todolist.appendChild(para)
 para.addEventListener("click",()=>{
     para.style.textDecoration = "line-through";
+    input.value="";
     remove(todo)
 })
 para.addEventListener("dblclick",()=>{
     todolist.removeChild(para)
+    input.value="";
     remove(todo)
 })
 
