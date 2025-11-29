@@ -50,3 +50,11 @@ outline: none;
 #todoList p{
     margin-top: 10px;
 }
+@media(max-width:480px){
+    .wrapper{
+        width: 200px;
+    }
+    .section{
+        padding: 10px;
+    }
+}
