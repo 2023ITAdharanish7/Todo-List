@@ -52,9 +52,11 @@ outline: none;
 }
 @media(max-width:480px){
     .wrapper{
-        width: 200px;
+      width: 300px;
+        height: 350px;
     }
     .section{
         padding: 10px;
     }
 }
+
